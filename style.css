@@ -1,20 +1,65 @@
 body {
   background-color: lightgray;
   width: 100%;
+}
 
+nav {
+  margin-left: 15%;
+  display: flex;
+  background-color: #5e5e5e;
+  width: 70%;
+  height: 40px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.top-element {
+  width: 11%;
+}
+
+.top-element h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.but-search {
+  width: 80%;
+  background-color: #5e5e5e;
+  border-radius: 5px;
 }
 
 .main-img {
-    background-image: url(assets/apple-main-img.jpg);
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    height: 560px;
-    background-color: mediumslateblue;
+  background-image: url(assets/apple-main-img.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  width: 99%;
+  height: 400px;
+  color: white;
+  padding-top: 100px;
+}
+
+.main-img p {
+  text-align: center;
+  align-content: center;
+}
+
+.main-img-p1 {
+    font-size: 70px;
+    margin: 0;
+}
+
+.main-img-p2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.main-img-p3 {
+    font-size: 30px;
 }
 
 .four-img {
-  background-color: mediumseagreen;
   max-width: 100%;
+  display: inline-block;
 }
 
 .image {
