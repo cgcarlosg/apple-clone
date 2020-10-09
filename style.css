@@ -1,0 +1,23 @@
+body {
+  background-color: lightgray;
+  width: 100%;
+
+}
+
+.main-img {
+    background-image: url(assets/apple-main-img.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 560px;
+    background-color: mediumslateblue;
+}
+
+.four-img {
+  background-color: mediumseagreen;
+  max-width: 100%;
+}
+
+.image {
+  width: 24.5%;
+}
+
